@@ -7,7 +7,7 @@
 */
 static int __init ej01_module_init(void) {
 	// Completar
-
+	printk("contreras_abril_ej01: Hola desde el kernel");
 	// Salio todo bien
 	return 0;
 }
@@ -17,7 +17,7 @@ static int __init ej01_module_init(void) {
 */
 static void __exit ej01_module_exit(void) {
 	// Completar
-
+	printk("contreras_abril_ej01: Chau desde el kernel!");
 }
 
 // Registro funciones de inicializacion y salida
